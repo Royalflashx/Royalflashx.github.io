@@ -1,0 +1,179 @@
+body {
+	font-family: 'Open-sans', sans-serif;
+}
+html {
+	font-size: 10px;
+}
+
+
+/* main-header (заголовок главный) */
+
+.wrapper {
+	display:table-cell;
+	vertical-align: middle;
+}
+
+
+
+.main {
+	position: relative;
+	display: table;
+	width:100%;
+	text-align: center;
+	color: #fff;
+	height: 100vh;
+	background: #000 url(../img/mybg1.jpg) center center no-repeat;
+}
+
+
+
+.main p {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.main-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.main-down {
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	left: 50%;
+	display: inline-block;
+	font-size: 25px;
+	width: 50px;
+	margin-left: -25px;
+	margin-bottom: 10px;
+	z-index: 4;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid transparent;
+	line-height: 50px;
+	transition: 0.5s;
+
+}
+.main-down:hover {
+	color: yellow;
+	border-color: yellow;
+}
+
+.main h1 {
+	color: lightblue;
+	margin-bottom: 10px;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 25px;
+
+}
+
+.main-header {
+	position: relative;
+	z-index: 2;
+}
+
+.main-header a {
+	display: inline-block;
+	font-size: 20px;
+	color: yellow;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.main-header a:hover {
+	color: red;
+	border-color: red;
+}
+
+.icon-facebook {
+	position: absolute;
+	left: 620px;
+	top: 110px;
+	transition: 0.5s;
+	
+}
+
+.icon-vk {
+	position: absolute;
+	left: 570px;
+	top: 110px;
+	transition: 0.5s;
+	
+}
+
+.icon-twitter {
+	position: absolute;
+	left: 670px;
+	top: 110px;
+	transition: 0.5s;
+	
+}
+
+.main-line {
+	width: 150px;
+	height: 1px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+
+/* Главный блок */
+
+
+
+.main-block {
+	height: 90vh;
+	width: 100%;
+}
+
+.pf {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding: 100px 0px;
+}
+
+.row a {
+	display: inline-block;
+	margin: 15px 140px;
+	color: #333;
+
+}
+
+.row a:hover {
+	text-decoration: none;
+	border-bottom: 2px dashed blue;
+}
+
+
+
+.main-block img {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 50px;
+
+}
+
+/* footer */
+
+.footer {
+	background-color: #646464;
+	color: #fff;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.social-links a {
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+	
